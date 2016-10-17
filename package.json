@@ -1,0 +1,27 @@
+{
+  "name": "exponent-tabs-starter",
+  "version": "0.0.0",
+  "description": "Hello Exponent!",
+  "author": null,
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "@exponent/ex-navigation": "^1.6.0",
+    "@exponent/samples": "^1.0.2",
+    "@exponent/vector-icons": "^1.0.1",
+    "exponent": "^10.0.0",
+    "react": "~15.3.2",
+    "react-native": "github:exponentjs/react-native#sdk-10.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "eslint": "^3.8.0",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-friendly-formatter": "^2.0.6",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1"
+  }
+}
