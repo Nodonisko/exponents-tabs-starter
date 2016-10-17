@@ -20,7 +20,7 @@ const propTypes = {
 class SettingsScreen extends React.Component {
   static route = {
     navigationBar: {
-      title: 'exp.json',
+      title: 'Settings exp.json',
     },
   }
 

@@ -2,7 +2,6 @@ import React, { PropTypes } from 'react';
 import {
   DeviceEventEmitter,
   StyleSheet,
-  View,
 } from 'react-native';
 import {
   StackNavigation,
@@ -83,6 +82,7 @@ class RootNavigation extends React.Component {
       >
         <TabNavigationItem
           id="home"
+          title="Home"
           renderIcon={isSelected => RootNavigation.renderIcon('home', isSelected)}
         >
           <StackNavigation initialRoute={Router.getRoute('home')} />
@@ -90,6 +90,7 @@ class RootNavigation extends React.Component {
 
         <TabNavigationItem
           id="links"
+          title="Links"
           renderIcon={isSelected => RootNavigation.renderIcon('book', isSelected)}
         >
           <StackNavigation initialRoute={Router.getRoute('links')} />
@@ -97,6 +98,7 @@ class RootNavigation extends React.Component {
 
         <TabNavigationItem
           id="settings"
+          title="Settings"
           renderIcon={isSelected => RootNavigation.renderIcon('cog', isSelected)}
         >
           <StackNavigation initialRoute={Router.getRoute('settings')} />
